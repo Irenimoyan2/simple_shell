@@ -15,7 +15,7 @@ int main(void)
 	while (1)
 	{
 		if (isatty(STDIN))
-		write(STDOUT, "#alxshell$ ", 7);
+		write(STDOUT, "#alxshell$ ", 10);
 
 		row = read_row();
 		tokens = tokenizer(row);
