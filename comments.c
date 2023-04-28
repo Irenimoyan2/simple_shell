@@ -4,7 +4,7 @@
  * semicolon - search if in the input there is a ";" or a ";;"
  * @line: complete input of user
  * @loop: number of actual loop
- * @argv: input argument
+ * @argv: array of argument string
  * Return: 1 if find ";" or ";;" or 0 if not
  */
 int semicolon(char *line, int loop, char **argv)
