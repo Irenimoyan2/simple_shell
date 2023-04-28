@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * read_help - reads all builtins text file and prints it to POSIX stdout
+ * read_help - reads all builtins text files and prints it to POSIX stdout
  * @m: copy of environment variables
- * Return: number of letters to write, otherwise 0.
+ * Return: number of characters to write, otherwise 0.
  */
 
 ssize_t read_help(char **m)
