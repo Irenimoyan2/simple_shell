@@ -3,7 +3,7 @@
 /**
  * _verifypath - check if the path has a : at the begining
  * or if exist ::
- *@path: string inside PATH env varible
+ *@path: searches for executable files when a user enters a command
  *@pwd: string inside PWD env variable
  *Return: path, or pwd concatenated to path if there is a : at the begining or
  *pwd concatenated when there is ::
