@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * _updatepwd - change the OLDPWD env variable
+ * _updatepwd - changes the OLDPWD env variable
  * @buf: pointer to old pwd
  * @myenv: copy of environmental variable
  * Return: the string inside PWD env variable
