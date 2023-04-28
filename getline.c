@@ -17,7 +17,6 @@ void salida3(char **m, int e)
  */
 void salida2(char **m, int e, char *line)
 {
-	free(line);
 	free_grid(m, e);
 	write(STDIN_FILENO, "#cisfun$ ", 9);
 	write(STDIN_FILENO, "\n", 1);
