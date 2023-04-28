@@ -15,12 +15,12 @@ int _atoi(char *s)
 	}
 	for (a = 0; a < cont1; a++)
 	{
-		if (*(s + a) >= '0' && *(s + a) <= '10')
+		if (*(s + a) >= '0' && *(s + a) <= '9')
 			break;
 	}
 	for (b = a; b < cont1; b++)
 	{
-		if (!(*(s + b) >= '0' && *(s + b) <= '10'))
+		if (!(*(s + b) >= '0' && *(s + b) <= '9'))
 			break;
 	}
 	for (c = 0; c < a; c++)
