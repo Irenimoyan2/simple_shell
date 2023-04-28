@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include "shell.h"
 /**
- * _calloc - concatenate tw strings specially
+ * _calloc -  takes two arguments, the number of elements to allocate memory
  * @nmemb: number of elements
- * @size: type of elements
- * Return: nothing
+ * @size: the size of each element in bytes
+ * Return: nothing or zero
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
