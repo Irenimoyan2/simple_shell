@@ -9,7 +9,7 @@ int _atoi(char *s)
 	unsigned int cont1 = 0, a, b, c, num = 0, tam;
 	int aux2 = 1;
 
-	while ((s + cont1) != '\0')
+	while (*(s + cont1) != '\0')
 	{
 		cont1++;
 	}
