@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
- * _isenv - finds if line input is env
- * @p: input of user, array of pointers
+ * _isenv - finds if the  line input is env
+ * @p: array of pointers
  * @myenv: copy of environmental variables
  * Return: -1 if fails or 0 if success
  */
