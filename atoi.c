@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * _atoi - gets sign and numbers of string
- * @s: array
- * Return: gets numbers with its sign
+ * _atoi - converts string characters to integers.
+ * @s: pointer array of the strings.
+ * Return: gets numbers its sign
  */
 int _atoi(char *s)
 {
