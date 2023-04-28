@@ -97,4 +97,3 @@ char *_strtoky2(char *s, char *d)
 	}
 	return (NULL);
 }
-
