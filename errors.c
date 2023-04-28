@@ -2,7 +2,7 @@
 
 /**
  * _errorcd - writes the error
- * @p: input pointer
+ * @p: input pointer pointer of an array
  * Return: nothing.
  */
 void _errorcd(char **p)
