@@ -23,7 +23,7 @@ int _sch(char *s, char c)
 		return (0);
 }
 /**
- * _strtoky - function that cut a string into tokens depending of the delimit
+ * _strtoky - takes the string to be tokenized and delimiter as input
  * @s: string to cut in parts
  * @d: delimiters
  * Return: first partition
